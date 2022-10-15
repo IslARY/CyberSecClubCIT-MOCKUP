@@ -41,7 +41,9 @@ load_more.onclick = ()=>{
 	}
 	let items = [...document.getElementsByClassName('hide')];
 	for(let i=displayed_items;i<displayed_items+3;i++){
-		items[i].style.display = "inline-block";
+		if(items[i]){
+			items[i].style.display = "inline-block";
+		}
 	}
 	displayed_items += 3;
 	if(displayed_items >= items.length){
