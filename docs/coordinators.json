@@ -1,0 +1,50 @@
+[
+  {
+    "firstname": "Jaya Rani Mushahary",
+    "post": "Coordinator",
+    "module": "B.Tech 4th Year (CSE)",
+    "contact": " +91 7002571322",
+    "mail": "xyz@cit.ac.in",
+    "img": "./images/members/jaya_rani.jpeg"
+  },
+  {
+    "firstname": "Pratima Baro",
+    "post": "Coordinator",
+    "module": "B.Tech 4th Year (CSE)",
+    "contact": " +91 9101936684",
+    "mail": "xyz@cit.ac.in",
+    "img": "./images/members/pratima_baro.jpeg"
+  },
+  {
+    "firstname": "Animegh Sarania",
+    "post": "Coordinator",
+    "module": "B.Tech 4th Year (CSE)",
+    "contact": " +91 8453926013",
+    "mail": "xyz@cit.ac.in",
+    "img": "./images/members/animegh.jpeg"
+  },
+  {
+    "firstname": "Bilen Baro",
+    "post": "Coordinator",
+    "module": "B.Tech 4th Year (CSE)",
+    "contact": " +91 8638938431",
+    "mail": "u19cse1012@cit.ac.in",
+    "img": "./images/members/bilen_baro.jpeg"
+  },
+  {
+    "firstname": "Dipu Singh",
+    "post": "Coordinator",
+    "module": "B.Tech 4th Year (CSE)",
+    "contact": " +91 6003239904",
+    "mail": "xyz@cit.ac.in",
+    "img": "./images/members/dipu_singh.jpeg"
+  },
+  {
+    "firstname": "Sanjib Malakar",
+    "post": "Coordinator",
+    "module": "B.Tech 4th Year (CSE)",
+    "contact": " +91 7399372217",
+    "mail": "u19cse1027@cit.ac.in",
+    "img": "./images/members/sanjib_malakar.jpeg"
+  }
+]
