@@ -54,5 +54,13 @@
     "contact": " +91 7002034064",
     "mail": "u19csel2092@cit.ac.in",
     "img": "./images/members/milo.jpeg"
+  },
+   {
+    "firstname": "Abdul Alim Sk",
+    "post": "Coordinator",
+    "module": "B.Tech 4th Year (CSE)",
+    "contact": " +91 7002865916",
+    "mail": "u19cse1046@cit.ac.in",
+    "img": "./images/members/abdul.jpeg"
   }
 ]
