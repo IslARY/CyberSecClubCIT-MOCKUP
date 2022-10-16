@@ -70,6 +70,7 @@ body {
   min-height: 80vh;
   width: 100%;
   line-height: 1.5;
+  padding: 1.5rem;
 }
 .contain2 .about-content {
   font-size: 20px;
@@ -259,11 +260,24 @@ body {
   }
 }
 @media (max-width: 600px) {
+  html, body {
+    overflow-x: hidden;
+  }
+  .wave-holder1 {
+    margin-bottom: -20px;
+  }
+  .wave-holder2 .wave {
+    margin-top: -3px;
+  }
   .navbar {
     padding: 0rem 1rem;
   }
   .navbar .nav-list {
     padding: 1rem 0.1rem;
+    gap: 0rem;
+  }
+  .navbar .nav-list button {
+    font-size: 15px;
   }
   .contain2 {
     margin-bottom: 50px;
