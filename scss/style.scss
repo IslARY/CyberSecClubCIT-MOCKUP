@@ -392,7 +392,11 @@ body{
 
 
 // WAVY DIVs
-.wave-holder1, .wave-holder2{
+.wave-holder1{
+	position: relative;
+	margin-bottom: -5px;
+}
+.wave-holder2{
 	position: relative;
 }
 @media (max-width: 769px){

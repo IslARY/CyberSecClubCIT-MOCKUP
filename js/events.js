@@ -3,7 +3,12 @@
 // Rendering EVENT INFO HERE
 
 let container = document.getElementById('timeline-container');
-import Events from "../docs/events.json" assert {type: 'json'};
+//import Events from "../docs/events.json" assert {type: 'json'}; //Doesn't work in FireFox
+fetch("../docs/events.json")
+	.then((res)=>res.json())
+	.then((data)=>{
+		let Events = data;
+		console.log(Events)
 let count = Events.length;
 let store = Events.map((item)=>{
 	return `
@@ -21,3 +26,5 @@ let store = Events.map((item)=>{
 })
 
 store.forEach((item)=>{container.innerHTML += item})
+
+});
