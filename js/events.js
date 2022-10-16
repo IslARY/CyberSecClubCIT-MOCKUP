@@ -8,7 +8,6 @@ fetch("../docs/events.json") //Path is Relative to its corresponding HTML
 	.then((res)=>res.json())
 	.then((data)=>{
 		let Events = data;
-		console.log(Events)
 let count = Events.length;
 let store = Events.map((item)=>{
 	return `
