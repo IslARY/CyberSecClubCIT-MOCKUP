@@ -165,8 +165,8 @@ body {
   text-align: center;
 }
 .contain5 p {
+  padding: 2rem 0.5rem;
   word-spacing: 2px;
-  margin-top: 40px;
 }
 
 .nav-style-add {
@@ -265,6 +265,10 @@ body {
 @media (max-width: 600px) {
   html, body {
     overflow-x: hidden;
+  }
+  .hero-title {
+    width: auto;
+    font-size: 80px !important;
   }
   .about-head h1 {
     margin-top: -60px;
