@@ -55,7 +55,7 @@ load_more.onclick = ()=>{
 // RENDERING COORDINATORs
 let coordinator_list = document.getElementById("co-list");
 //import coordinators from "../docs/coordinators.json" assert {type: 'json'}; // X Firefox
-fetch("../docs/coordinators.json")
+fetch("./docs/coordinators.json")
 .then((res) => res.json())
 .then((data) => {
 	let coordinators = data;
@@ -78,7 +78,7 @@ update_users.forEach((item)=>{ coordinator_list.innerHTML += item})
 
 //RENDERING LATEST EVENT
 //import Events from "../docs/events.json" assert {type: 'json'}; // X Firefox
-fetch("/docs/events.json")
+fetch("./docs/events.json")
 .then((res)=> res.json())
 .then((data)=>{
 	let Events = data;
