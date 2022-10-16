@@ -93,6 +93,11 @@ body {
   font-weight: 100;
 }
 
+@media (max-width: 600px) {
+  html, body {
+    overflow-x: hidden;
+  }
+}
 * {
   scrollbar-width: none;
   scrollbar-track-color: transparent;

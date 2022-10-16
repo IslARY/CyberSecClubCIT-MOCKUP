@@ -126,6 +126,11 @@ body{
 		}
 	}
 }
+@media (max-width: 600px){
+	html, body{
+		overflow-x: hidden;
+	}
+}
 
 
 // For Firefox (Scroll-bar styling)
