@@ -4,7 +4,7 @@
 
 let container = document.getElementById('timeline-container');
 //import Events from "../docs/events.json" assert {type: 'json'}; //Doesn't work in FireFox
-fetch("./docs/events.json")
+fetch("../docs/events.json") //Path is Relative to its corresponding HTML
 	.then((res)=>res.json())
 	.then((data)=>{
 		let Events = data;

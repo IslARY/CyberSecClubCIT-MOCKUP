@@ -55,7 +55,7 @@ load_more.onclick = ()=>{
 // RENDERING COORDINATORs
 let coordinator_list = document.getElementById("co-list");
 //import coordinators from "../docs/coordinators.json" assert {type: 'json'}; // X Firefox
-fetch("./docs/coordinators.json")
+fetch("./docs/coordinators.json") //Path is Relative to its corresponding HTML
 .then((res) => res.json())
 .then((data) => {
 	let coordinators = data;
