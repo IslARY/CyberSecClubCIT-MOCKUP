@@ -84,6 +84,7 @@ body{
 				box-shadow: 15px 15px 10px rgba(0,0,0,0.1);
 				transform: scale(1.1);
 			}
+			-webkit-tap-highlight-color: transparent; //REMOVES HIGHLIGHT ON TOUCH
 		}
 	}
 }

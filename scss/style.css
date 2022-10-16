@@ -224,6 +224,7 @@ body {
   display: none;
   margin-top: 15px;
   cursor: pointer;
+  height: 35px;
 }
 .burger div {
   width: 30px;
