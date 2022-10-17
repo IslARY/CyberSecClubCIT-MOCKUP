@@ -334,21 +334,32 @@ body {
   padding: 2em;
   display: grid;
   gap: 3em;
-  grid-template-columns: repeat(auto-fit, 350px);
+  grid-template-columns: repeat(auto-fit, 21.875rem);
   align-items: center;
   justify-content: center;
 }
 .member-container .info-card {
+  display: flex;
+  flex-direction: column;
   color: #4e5861;
   margin-top: 30px;
   text-align: center;
   line-height: 2;
 }
+.member-container .info-card h2 {
+  font-size: 1.5rem;
+}
+.member-container .info-card h3 {
+  font-size: 1.2rem;
+}
+.member-container .info-card h4 {
+  font-size: 1.05rem;
+}
 .member-container .member-card {
   background-color: white;
   padding: 2em;
   border-radius: 0.3em;
-  min-height: 500px;
+  min-height: 34.5rem;
   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.5s;
 }
