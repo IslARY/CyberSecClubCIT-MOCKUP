@@ -10,8 +10,9 @@ body {
 }
 
 .line {
-  position: absolute;
+  position: relative;
   margin-left: 45%;
+  margin-top: 5rem;
   width: 10%;
   height: 2px;
   background-color: #f3f3f3;
@@ -89,10 +90,10 @@ body {
 
 .contain-event {
   display: inline-block;
-  min-height: 40vh;
+  min-height: 10vh;
   width: 100%;
   text-align: center;
-  margin-top: 200px;
+  margin-top: 15rem;
 }
 .contain-event .event-content {
   margin-top: 20px;
@@ -126,7 +127,6 @@ body {
   display: inline-block;
   min-height: 10vh;
   width: 100%;
-  margin-bottom: 70px;
 }
 .contain3 .member-container .fac-info {
   text-decoration: none;
