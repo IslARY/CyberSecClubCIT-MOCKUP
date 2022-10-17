@@ -50,7 +50,6 @@ body {
   margin-top: 200px;
 }
 .contain1 .hero {
-  font-style: italic;
   letter-spacing: 1px;
   line-height: 1.2;
   width: 50%;
@@ -108,17 +107,20 @@ body {
 }
 .contain-event .event-content .event-container h2 {
   margin-top: 0px;
+  font-size: 1.5rem;
 }
 .contain-event .event-content .event-container h3 {
   margin-top: 10px;
+  font-size: 1.2rem;
 }
 .contain-event .event-content .event-container p {
   margin-top: 20px;
+  font-size: 1.1rem;
 }
 
 .contain3 {
   display: inline-block;
-  min-height: 50vh;
+  min-height: 10vh;
   width: 100%;
   margin-bottom: 70px;
 }
