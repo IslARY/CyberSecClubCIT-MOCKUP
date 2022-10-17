@@ -9,8 +9,9 @@ body{
 }
 // line for indicating div separation
 .line{
-	position: absolute;
+	position: relative;
 	margin-left: 45%;
+	margin-top: 5rem;
 	width: 10%;
 	height: 2px;
 	background-color: #f3f3f3;
@@ -86,10 +87,10 @@ body{
 }
 .contain-event{
 	display: inline-block;
-	min-height: 40vh;
+	min-height: 10vh;
 	width: 100%;
 	text-align: center;
-	margin-top: 200px;
+	margin-top: 15rem;
 	.event-content{
 		margin-top: 20px;
 		display: flex;
@@ -128,7 +129,6 @@ body{
 			text-decoration: none;
 		}
 	}
-	margin-bottom: 70px;
 }
 .hide{
 	display: none;
