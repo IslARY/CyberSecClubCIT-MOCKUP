@@ -10,7 +10,8 @@
 	<!--FONTS-->
 		<link href="https://fonts.googleapis.com/css2?family=Dosis&family=Open+Sans&display=swap" rel="stylesheet">
 	<!--END-->
-
+	<!--CAROUSEL CDN CSS-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 </head>
 <body>
 	<!--Nav Bar-->
@@ -50,8 +51,24 @@
 				<section class="hero">
 					<h1 class="dosis">CYBER SECURITY CLUB OF CITK</h1>
 				</section>
+				<!--CAROUSEL CODE-->
+		<section class="carousel-container">
+			<div class="swiper mySwiper">
+				<div class="swiper-wrapper">
+					<!-- INSERT IMAGES HERE -->
+					<div class="swiper-slide"><img class="carousel-image" src="./images/gallery/event9/img (1).jpg" alt="event image"></div>
+					<div class="swiper-slide"><img class="carousel-image" src="./images/gallery/event9/img (2).jpg" alt="event image"></div>
+					<div class="swiper-slide"><img class="carousel-image" src="./images/gallery/event9/img (3).jpg" alt="event image"></div>
+					<div class="swiper-slide"><img class="carousel-image" src="./images/gallery/event9/img (4).jpg" alt="event image"></div>
+					<div class="swiper-slide"><img class="carousel-image" src="./images/gallery/event9/img (5).jpg" alt="event image"></div>
+					<div class="swiper-slide"><img class="carousel-image" src="./images/gallery/event9/img (6).jpg" alt="event image"></div>
+					<div class="swiper-slide"><img class="carousel-image" src="./images/gallery/event9/img (7).jpg" alt="event image"></div>
+				</div>
+			<!-- IF PAGINATION IS DESIRED -->
+				<div class="swiper-pagination"></div>
 			</div>
-
+		</section>
+			</div>
 
 	<!--WAVE1-->
 	<section class="wave-holder1"><div class="wave1">
@@ -198,7 +215,8 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.min.js" integrity="sha512-5/OHwmQzDSBS0Ous4/hlYoWLHd06/d2r7LdKZQVBXOA6PvOqWVXtdboiLTU7lQTGyVoKVTNkwi0ol4gHGlw5ww==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/ScrollToPlugin.min.js" integrity="sha512-lFUdnIP0VHYatqtK0Mni2SDBS62JtUUPq9F26a/SDPZMHoGp3E1WO9gHXu1DddaN1ig1fn4mvHAqJ4x0kauKQw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+	<script src="./js/carousel.js" type="module"></script>
 	<script src="./js/script.js" type="module"></script>
 	
 	<!--END-->

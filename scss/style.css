@@ -42,12 +42,12 @@ body {
   display: inline-block;
   min-height: 50vh;
   width: 100%;
-  margin-bottom: 400px;
+  margin-bottom: 250px;
 }
 .contain1 .hero-title {
   font-size: 100px;
   text-align: center;
-  margin-top: 200px;
+  margin-top: 180px;
 }
 .contain1 .hero {
   letter-spacing: 1px;
@@ -56,6 +56,8 @@ body {
   margin-left: 25%;
 }
 .contain1 .hero h1 {
+  font-weight: 100;
+  font-size: 2.5rem;
   margin-top: -70px;
 }
 
@@ -459,4 +461,43 @@ body {
 
 .wave1 .shape-fill {
   fill: #1e1f22;
+}
+
+.carousel-container {
+  margin-top: 70px;
+}
+
+.swiper {
+  width: 50%;
+}
+.swiper .swiper-slide {
+  margin-top: -200px;
+  text-align: center;
+  font-size: 18px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper .swiper-slide img {
+  border-radius: 0.5rem;
+  margin-top: 200px;
+  display: block;
+  width: 800px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.swiper .swiper-pagination {
+  width: 200px;
+  color: white;
+}
+.swiper .swiper-pagination-bullet-active {
+  background-color: white !important;
+}
+
+@media screen and (max-width: 813px) {
+  .swiper {
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */
