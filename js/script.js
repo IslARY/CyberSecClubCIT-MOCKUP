@@ -36,7 +36,7 @@ let displayed_items = 0;
 let clicked = true;
 load_more.onclick = ()=>{
 	if(clicked){
-		title_post.innerHTML += `<h4 class="post-title dosis">Coordinators</h4>`;
+		title_post.innerHTML += `<h4 class="post-title dosis">Core Team Members</h4>`;
 		clicked = false;
 	}
 	let items = [...document.getElementsByClassName('hide')];
@@ -61,7 +61,7 @@ fetch("./docs/coordinators.json") //Path is Relative to its corresponding HTML
 	let coordinators = data;
 	let update_users = coordinators.map((user)=>{
 		return `<div class="member-card hide open-sans">
-							<img src="${user.img}" alt="Co-founder">
+							<img src="${user.img}" alt="core team member">
 							<section class="info-card">
 								<h2 class="dosis">${user.firstname}</h2>
 								<h3>${user.post}</h3>
