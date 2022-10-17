@@ -95,15 +95,15 @@ body {
   margin-top: 20px;
   margin-left: 50%;
   transform: translateX(-50%);
-  min-height: 100px;
-  min-width: 300px;
+  min-height: 6.25rem;
+  min-width: 6.25rem;
 }
 .contain-event .event-content .event-container {
   padding: 2rem;
   border-radius: 1rem;
   box-shadow: 0px 0px 1px black;
-  min-width: 300px;
-  min-height: 100px;
+  min-width: 6.25rem;
+  min-height: 6.25rem;
 }
 .contain-event .event-content .event-container h2 {
   margin-top: 0px;
