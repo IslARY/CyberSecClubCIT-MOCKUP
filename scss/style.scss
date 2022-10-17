@@ -37,7 +37,7 @@ body{
 .contain1{
 	color: #1e1f22;
 	display: inline-block;
-	min-height: 100vh;
+	min-height: 50vh;
 	width: 100%;
 	.hero-title{
 		font-size: 100px;
@@ -45,6 +45,7 @@ body{
 		margin-top: 200px;
 	}
 	.hero{
+		font-style: italic;
 		letter-spacing: 1px;
 		line-height: 1.2;
 		width: 50%;
@@ -53,7 +54,7 @@ body{
 			margin-top: -70px;
 		}
 	}
-	margin-bottom: 50px;
+	margin-bottom: 400px;
 }
 .space{
 	margin-top: 20px;
@@ -67,7 +68,7 @@ body{
 	background-color: #1e1f22;
 	color: white;
 	display: inline-block;
-	min-height: 80vh;
+	min-height: 70vh;
 	width: 100%;
 	line-height: 1.5;
 	padding: 1.5rem;
@@ -114,12 +115,9 @@ body{
 }
 .contain3{
 	display: inline-block;
-	min-height: 100vh;
+	min-height: 50vh;
 	width: 100%;
 	.member-container{
-		.member-card{
-			min-height: 600px;
-		}
 		.fac-info{
 			text-decoration: none;
 		}
@@ -131,7 +129,7 @@ body{
 }
 .contain4{
 	display: inline-block;
-	min-height: 100vh;
+	min-height: 50vh;
 	width: 100%;
 	.show-more{
 		margin-left: 50%;
@@ -349,14 +347,18 @@ body{
 			color: #4e5861;
 			margin-top: 30px;
 			text-align: center;
-			line-height: 2;
+			line-height: 1.6;
+			word-spacing: 2px;
+			letter-spacing: 0.7px;
 			h2{
 				font-size: 1.5rem;
 			}
 			h3{
+				font-weight: 100;
 				font-size: 1.2rem;
 			}
 			h4{
+				font-weight: 100;
 				font-size: 1.05rem;
 			}
 		}
@@ -373,7 +375,7 @@ body{
 			background-color: white;
 			padding: 2em;
 			border-radius: .3em;
-			min-height: 34.5rem;
+			min-height: 29.5rem;
 			box-shadow: 0px 0px 2px rgba(0,0,0,0.1);
 			transition: box-shadow 0.5s;
 			&:hover{
