@@ -61,7 +61,7 @@ body{
 .contain2{
 	.about-head{
 		h1{
-			margin-top: -40px;
+			margin-top: -35px;
 		}
 	}
 	background-color: #1e1f22;
@@ -159,6 +159,7 @@ body{
 	color: white;
 	text-align: center;
 	p{
+		font-size: 1.1rem;
 		padding: 2rem 0.5rem;
 		word-spacing: 2px;
 	}
@@ -377,7 +378,7 @@ body{
 			background-color: white;
 			padding: 2em;
 			border-radius: .3em;
-			min-height: 29.5rem;
+			min-height: 30rem;
 			box-shadow: 0px 0px 2px rgba(0,0,0,0.1);
 			transition: box-shadow 0.5s;
 			&:hover{
@@ -412,6 +413,7 @@ body{
 }
 .wave-holder2{
 	position: relative;
+	margin-top: -1px;
 }
 @media (max-width: 769px){
 	.wave-holder1{
